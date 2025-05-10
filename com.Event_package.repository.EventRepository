@@ -1,0 +1,11 @@
+package com.Event_package.repository;
+
+
+
+
+import com.Event_package.entity.Event_backend;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface EventRepository extends CrudRepository<Event_backend, Long> {
+}
